@@ -1,0 +1,32 @@
+
+<!doctype html>
+<html lang='pt-br'>
+	<head>
+		<title>Aula Front-End 16/06</title>
+		<meta charset='UTF-8'/>
+		<link rel='stylesheet' type='text/css' href='css/style.css'>
+		<script type='text/javascript' src='js/calc.js'></script>
+	</head>
+    <body>
+		<form name="calc" id="pag">
+			<h2>Calculator</h2>
+			<input type="text" id="display" name="visor" maxlength="0" autofocus='on' autocomplete='off' onkeypress="keyboard(value)"><br>
+			<input type="button" class='vi'value="<" id='back' onclick="voltar()">
+			<input type="button" class='vi'value="=" onclick="igual(value)">
+			<input type="button" class="nums" value='7' onclick="btS(value)">
+			<input type="button"class="nums" value='8' onclick="btO(value)">
+			<input type="button"class="nums" value='9' onclick="btN(value)"> <input type="button"class="nums" value="/" onclick="divisao(value)"><br>
+			<input type="button"class="nums" value="4" onclick="btQ(value)">
+			<input type="button"class="nums" value="5" onclick="btC(value)">
+			<input type="button"class="nums" value="6" onclick="btS(value)"> <input type="button"class="nums" value="*"onclick="multiplica(value)"><br>
+			<input type="button"class="nums" value="1" onclick="btU(value)">
+			<input type="button"class="nums" value="2" onclick="btD(value)">
+			<input type="button"class="nums" value="3" onclick="btT(value)">
+			<input type="button"class="nums" value="-" onclick="subtrai(value)"><br>
+			<input type="button"class="nums" id="bt0" value="0" onclick="btZ(value)">
+			<input type="button"class="nums" value="." onclick="virgula(value)">
+			<input type="button"class="nums" value="+" onclick="soma(value)">
+			<input type="reset" value="C" id="resetar"><br>
+		</form>
+    </body>
+</html>
