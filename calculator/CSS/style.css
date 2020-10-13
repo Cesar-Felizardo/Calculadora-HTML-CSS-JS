@@ -1,5 +1,5 @@
 
-#pag{
+#master{
     margin-top: 40px;
     border:2px solid #838383;
     text-align:center;
@@ -26,8 +26,7 @@ h2{
     padding-left: 4px;
     padding-right: 4px;
 }
-
-#bt0{
+#btn0{
     width: 40px;
     margin-top: 1px;
 }
@@ -38,12 +37,10 @@ h2{
     border: 1.1px solid #3a3434;
     width: 40px;
     margin-top: 4px;
-    
 }
 .nums:hover{
     font-weight: bold;
     color:#0f0d0c;
-    /* background-color: #ddab69; */
     color: #8d5000;
 }
 .vi{
